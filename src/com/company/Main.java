@@ -36,6 +36,19 @@ public class Main {
 
                 System.out.println(l*w);
                 break;
+            case 3:
+                System.out.println(" enter the length ");
+                l = input.nextInt();
+                System.out.println(l);
+                System.out.println(" enter the width");
+                w =input.nextInt();
+                System.out.println(w);
+                System.out.println(" enter the height");
+                h =input.nextInt();
+                System.out.println(h);
+
+                System.out.println(l*w*h);
+                break;
             default :
                 System.out.println("invalid");
         }
